@@ -4,6 +4,9 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+type Product struct {
+}
+
 func main() {
 	r := gin.Default()
 	r.GET("/", func(context *gin.Context) {
